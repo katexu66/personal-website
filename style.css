@@ -10,10 +10,10 @@ body {
 
 .open-arms-icon {
     margin: auto; /*centers it*/
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-image: url("./icons/open-arms.png");
-    background-size: 150px;
+    background-size: 100px;
 }
 
 .open-arms-icon:hover {
