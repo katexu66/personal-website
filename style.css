@@ -9,9 +9,11 @@ body {
 }
 
 .open-arms-icon {
-    width: 300px;
-    height: 300px;
+    margin: auto; /*centers it*/
+    width: 150px;
+    height: 150px;
     background-image: url("./icons/open-arms.png");
+    background-size: 150px;
 }
 
 .open-arms-icon:hover {
