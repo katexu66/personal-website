@@ -10,10 +10,10 @@ body {
 
 .open-arms-icon {
     margin: auto; /*centers it*/
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background-image: url("./icons/open-arms.png");
-    background-size: 100px;
+    background-size: 120px;
 }
 
 .open-arms-icon:hover {
@@ -46,10 +46,10 @@ body {
 
 .research-icon {
     margin: auto; /*centers it*/
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     background-image: url("./icons/research.png");
-    background-size: 80px;
+    background-size: 100px;
 }
 
 .research-icon:hover {
