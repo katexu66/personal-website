@@ -55,3 +55,15 @@ body {
 .research-icon:hover {
     background-image: url("./icons/research_highlighted.png");
 }
+
+.photography-icon {
+    margin: auto; /*centers it*/
+    width: 100px;
+    height: 100px;
+    background-image: url("./icons/photography.png");
+    background-size: 100px;
+}
+
+.photography-icon:hover {
+    background-image: url("./icons/photography_highlighted.png");
+}
