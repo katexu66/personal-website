@@ -16,13 +16,13 @@ a {
 
 .open-arms-icon {
     margin: auto; /*centers it*/
-    width: 110px;
-    height: 110px;
+    width: 140px;
+    height: 140px; /*105.5 px for 110*/
     background-image: url("./icons/open-arms.png");
-    background-size: 110px;
+    background-size: 140px;
 }
 .open-arms-icon:hover {
-    transform: translateY(-10px);
+    transform: translateY(-10px); /*115.5*/
     background-image: url("./icons/open-arms_highlighted.png");
 }
 .open-arms-text {
@@ -35,12 +35,12 @@ a {
 .music-icon {
     margin: auto; /*centers it*/
     width: 100px;
-    height: 100px;
+    height: 100px;/*100 px*/
     background-image: url("./icons/piano.png");
     background-size: 100px;
 }
 .music-icon:hover {
-    transform: translateY(-20px);
+    transform: translateY(-15.5px);
     background-image: url("./icons/piano_highlighted.png");
 }
 .music-text {
@@ -52,13 +52,13 @@ a {
 
 .projects-icon {
     margin: auto; /*centers it*/
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px; /*94.5 px*/
     background-image: url("./icons/robotics.png");
-    background-size: 90px;
+    background-size: 100px;
 }
 .projects-icon:hover {
-    transform: translateY(-10px);
+    transform: translateY(-20px);
     background-image: url("./icons/robotics_highlighted.png");
 }
 .projects-text {
@@ -89,16 +89,16 @@ a {
 .photography-icon {
     margin: auto; /*centers it*/
     width: 100px;
-    height: 100px;
+    height: 100px; /*92 px*/
     background-image: url("./icons/photography.png");
     background-size: 100px;
 }
 .photography-icon:hover {
-    transform: translateY(-20px);
+    transform: translateY(-23.5px);
     background-image: url("./icons/photography_highlighted.png");
 }
 .photography-text {
-    opacity: 0; 
+    opacity: 0;
 }
 .photography-icon:hover + .photography-text {
     opacity: 1;
