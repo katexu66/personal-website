@@ -5,7 +5,14 @@ img {
 
 body {
     text-align: center;
-    font-family: "Arial";
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400; /*boldness, 100-700*/
+    font-style: normal;
+}
+
+p {
+    font-size: 12px;
 }
 
 .open-arms-icon {

@@ -1,3 +1,7 @@
 body {
-    font-family: "Arial";
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400; /*boldness, 100-700*/
+    font-style: normal;
 }
