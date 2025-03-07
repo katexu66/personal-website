@@ -56,9 +56,14 @@ p {
     background-image: url("./icons/robotics.png");
     background-size: 80px;
 }
-
 .projects-icon:hover {
     background-image: url("./icons/robotics_highlighted.png");
+}
+.projects-text {
+    display: none; 
+}
+.projects-icon:hover + .projects-text {
+    display: block;
 }
 
 .research-icon {
@@ -68,9 +73,14 @@ p {
     background-image: url("./icons/research.png");
     background-size: 100px;
 }
-
 .research-icon:hover {
     background-image: url("./icons/research_highlighted.png");
+}
+.research-text {
+    display: none; 
+}
+.research-icon:hover + .research-text {
+    display: block;
 }
 
 .photography-icon {
@@ -80,7 +90,12 @@ p {
     background-image: url("./icons/photography.png");
     background-size: 100px;
 }
-
 .photography-icon:hover {
     background-image: url("./icons/photography_highlighted.png");
+}
+.photography-text {
+    display: none; 
+}
+.photography-icon:hover + .photography-text {
+    display: block;
 }
