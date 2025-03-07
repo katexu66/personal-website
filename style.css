@@ -22,9 +22,14 @@ p {
     background-image: url("./icons/open-arms.png");
     background-size: 120px;
 }
-
 .open-arms-icon:hover {
     background-image: url("./icons/open-arms_highlighted.png");
+}
+.open-arms-text {
+    display: none; /*hide text by default*/
+}
+.open-arms-icon:hover + .open-arms-text {
+    display: block; /*display text when hover over icon*/
 }
 
 .music-icon {
@@ -34,9 +39,14 @@ p {
     background-image: url("./icons/piano.png");
     background-size: 100px;
 }
-
 .music-icon:hover {
     background-image: url("./icons/piano_highlighted.png");
+}
+.music-text {
+    display: none; 
+}
+.music-icon:hover + .music-text {
+    display: block;
 }
 
 .projects-icon {
