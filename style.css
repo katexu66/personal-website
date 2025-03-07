@@ -16,19 +16,20 @@ a {
 
 .open-arms-icon {
     margin: auto; /*centers it*/
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
     background-image: url("./icons/open-arms.png");
-    background-size: 120px;
+    background-size: 110px;
 }
 .open-arms-icon:hover {
+    transform: translateY(-10px);
     background-image: url("./icons/open-arms_highlighted.png");
 }
 .open-arms-text {
-    display: none; /*hide text by default*/
+    opacity: 0; /*hide text by default, but keep it there invisibly so it still takes up space (as opposed to display: none)*/
 }
 .open-arms-icon:hover + .open-arms-text {
-    display: block; /*display text when hover over icon*/
+    opacity: 1; /*display text when hover over icon*/
 }
 
 .music-icon {
@@ -39,30 +40,32 @@ a {
     background-size: 100px;
 }
 .music-icon:hover {
+    transform: translateY(-20px);
     background-image: url("./icons/piano_highlighted.png");
 }
 .music-text {
-    display: none; 
+    opacity: 0; 
 }
 .music-icon:hover + .music-text {
-    display: block;
+    opacity: 1;
 }
 
 .projects-icon {
     margin: auto; /*centers it*/
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     background-image: url("./icons/robotics.png");
-    background-size: 80px;
+    background-size: 90px;
 }
 .projects-icon:hover {
+    transform: translateY(-10px);
     background-image: url("./icons/robotics_highlighted.png");
 }
 .projects-text {
-    display: none; 
+    opacity: 0; 
 }
 .projects-icon:hover + .projects-text {
-    display: block;
+    opacity: 1;
 }
 
 .research-icon {
@@ -73,13 +76,14 @@ a {
     background-size: 100px;
 }
 .research-icon:hover {
+    transform: translateY(-20px);
     background-image: url("./icons/research_highlighted.png");
 }
 .research-text {
-    display: none; 
+    opacity: 0; 
 }
 .research-icon:hover + .research-text {
-    display: block;
+    opacity: 1;
 }
 
 .photography-icon {
@@ -90,11 +94,12 @@ a {
     background-size: 100px;
 }
 .photography-icon:hover {
+    transform: translateY(-20px);
     background-image: url("./icons/photography_highlighted.png");
 }
 .photography-text {
-    display: none; 
+    opacity: 0; 
 }
 .photography-icon:hover + .photography-text {
-    display: block;
+    opacity: 1;
 }
