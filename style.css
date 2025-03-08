@@ -3,10 +3,10 @@ body {
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 400; /*boldness, 100-700*/
-    font-style: normal;
-    position: absolute;
+    position: absolute; /*centering*/
     top: 25%;
     left: 25%;
+    width: 60%;
 }
 p {
     font-size: 12px;
@@ -17,15 +17,17 @@ a {
     display: inline-block; /*wraps effective link area to icon*/
 }
 
+/*home page icons*/
+
 .open-arms-icon {
     margin: auto; /*centers it*/
     width: 140px;
-    height: 140px; /*105.5 px for 110*/
+    height: 140px;
     background-image: url("./icons/open-arms.png");
     background-size: 140px;
 }
 .open-arms-icon:hover {
-    transform: translateY(-10px); /*115.5*/
+    transform: translateY(-10px);
     background-image: url("./icons/open-arms_highlighted.png");
 }
 .open-arms-text {
@@ -38,12 +40,12 @@ a {
 .music-icon {
     margin: auto; /*centers it*/
     width: 100px;
-    height: 100px;/*100 px*/
+    height: 100px; /*100 px*/
     background-image: url("./icons/piano.png");
     background-size: 100px;
 }
 .music-icon:hover {
-    transform: translateY(-15.5px);
+    transform: translateY(-10px);
     background-image: url("./icons/piano_highlighted.png");
 }
 .music-text {
@@ -55,13 +57,13 @@ a {
 
 .projects-icon {
     margin: auto; /*centers it*/
-    width: 100px;
-    height: 100px; /*94.5 px*/
+    width: 105px;
+    height: 105px;
     background-image: url("./icons/robotics.png");
-    background-size: 100px;
+    background-size: 105px;
 }
 .projects-icon:hover {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
     background-image: url("./icons/robotics_highlighted.png");
 }
 .projects-text {
@@ -72,14 +74,14 @@ a {
 }
 
 .research-icon {
-    margin: auto; /*centers it*/
-    width: 100px;
-    height: 100px;
+    margin: auto;
+    width: 106px;
+    height: 106px;
     background-image: url("./icons/research.png");
-    background-size: 100px;
+    background-size: 106px;
 }
 .research-icon:hover {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
     background-image: url("./icons/research_highlighted.png");
 }
 .research-text {
@@ -90,14 +92,14 @@ a {
 }
 
 .photography-icon {
-    margin: auto; /*centers it*/
-    width: 100px;
-    height: 100px; /*92 px*/
+    margin: auto;
+    width: 108.7px;
+    height: 108.7px; /*100 px*/
     background-image: url("./icons/photography.png");
-    background-size: 100px;
+    background-size: 108.7px;
 }
 .photography-icon:hover {
-    transform: translateY(-23.5px);
+    transform: translateY(-10px);
     background-image: url("./icons/photography_highlighted.png");
 }
 .photography-text {
