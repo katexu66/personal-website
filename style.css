@@ -4,8 +4,10 @@ body {
     font-optical-sizing: auto;
     font-weight: 400; /*boldness, 100-700*/
     position: absolute; /*centering*/
-    top: 25%;
-    left: 25%;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     width: 60%;
 }
 p {
