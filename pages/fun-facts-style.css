@@ -9,3 +9,15 @@
 .cookies4KD:visited {
     color: green;
 }
+
+.caption {
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    font-size: 10px;
+}
+
+body {
+    width: 45%;
+    font-weight: 400;
+}
