@@ -57,42 +57,6 @@ a {
     opacity: 1;
 }
 
-.projects-icon {
-    margin: auto; /*centers it*/
-    width: 105px;
-    height: 105px;
-    background-image: url("./icons/robotics.png");
-    background-size: 105px;
-}
-.projects-icon:hover {
-    transform: translateY(-10px);
-    background-image: url("./icons/robotics_highlighted.png");
-}
-.projects-text {
-    opacity: 0; 
-}
-.projects-icon:hover + .projects-text {
-    opacity: 1;
-}
-
-.research-icon {
-    margin: auto;
-    width: 106px;
-    height: 106px;
-    background-image: url("./icons/research.png");
-    background-size: 106px;
-}
-.research-icon:hover {
-    transform: translateY(-10px);
-    background-image: url("./icons/research_highlighted.png");
-}
-.research-text {
-    opacity: 0; 
-}
-.research-icon:hover + .research-text {
-    opacity: 1;
-}
-
 .photography-icon {
     margin: auto;
     width: 108.7px;
