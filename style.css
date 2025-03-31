@@ -19,6 +19,16 @@ a {
     display: inline-block; /*wraps effective link area to icon*/
 }
 
+.link:hover {
+    color: blue;
+}
+.link {
+    text-decoration: underline;
+}
+.link:visited {
+    color: green;
+} /*how to make turn blue over hover if alr visited?*/
+
 /*home page icons*/
 
 .open-arms-icon {

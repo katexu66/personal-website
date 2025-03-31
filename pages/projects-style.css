@@ -13,18 +13,6 @@ img {
     margin: 20px;
 }
 
-
-.link:hover {
-    color: blue;
-}
-.link {
-    text-decoration: underline;
-}
-.link:visited {
-    color: green;
-} /*how to make turn blue over hover if alr visited?*/
-
-
 .caption {
     width: 35%;
     margin: auto;
