@@ -1,3 +1,15 @@
+div.scroll-container {
+    background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px;
+}
+
+div.scroll-container img {
+    padding: 5px;
+    height: 200px;
+}
+
 body {
     text-align: center;
     font-family: "Roboto Mono", monospace;
