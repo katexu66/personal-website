@@ -78,9 +78,11 @@ a {
     transform: translateY(-10px);
     background-image: url("./icons/photography_highlighted.png");
 }
-.photography-text {
+
+/* to make photography text appear on hover */
+/* .photography-text {
     opacity: 0;
 }
 .photography-icon:hover + .photography-text {
     opacity: 1;
-}
+} */
